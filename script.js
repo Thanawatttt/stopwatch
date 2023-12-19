@@ -97,8 +97,4 @@ function clearTimer() {
   document.getElementById('go').style.display="inline";
   document.getElementById('clear').style.display="none";
   document.addEventListener('keydown', function(event) {
-  // Check if Ctrl + F1 is pressed
-  if (event.ctrlKey && event.key === 'F1') {
-    startTimer();
-  }
-});
+}
